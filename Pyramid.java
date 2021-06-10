@@ -27,6 +27,41 @@ public class Pyramid {
         material = mat;
         
     }
+    public void setPhaName(String phaName) {
+        this.phaName = phaName;
+    }
+
+    public void setModernName(String modernName) {
+        this.modernName = modernName;
+    }
+
+    public void setSite(String site) {
+        this.site = site;
+    }
+
+    public void setMaterial(String material) {
+        this.material = material;
+    }
+    
+
+    public String getPhaName() {
+        return phaName;
+    }
+
+    public String getModernName() {
+        return modernName;
+    }
+
+    public String getSite() {
+        return site;
+    }
+
+    public String getMaterial() {
+        return material;
+    }
+    
+
+ 
 
  
    
